@@ -86,6 +86,8 @@ body {
 
 .feedback {
     padding: 10px 0;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .description, span {
