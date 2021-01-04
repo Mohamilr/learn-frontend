@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launch-countdown-timer</title>
+    <link rel="stylesheet" href="./assets/css/launch-countdown-timer.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="preload" as="style" onload="this.rel = 'stylesheet'">
+    <noscript>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </noscript>
+</head>
+<body class="border-box">
+    <main class="bg-black h-screen">
+        <section class="h-4/5 p-4">
+            <div class="container text-white w-3/5 m-auto p-12">
+                <h1 class="text-center">WE'RE LAUNCHING SOON</h1>
+                <div class="grid gap-3 grid-cols-4 mx-10">
+                    <div>
+                        <p id="days">08</p>
+                        <p>Days</p>
+                    </div>
+                    <div>
+                        <p id="hours">23</p>
+                        <p>Hours</p>
+                    </div>
+                    <div>
+                        <p id="minutes">55</p>
+                        <p>Minutes</p>
+                    </div>
+                    <div>
+                        <p id="seconds">41</p>
+                        <p>Seconds</p>
+                    </div>
+                </div>
+                <div class="flex ">
+                    <span>
+                        <img src="./images/launch-countdown-timer/icon-facebook.svg" alt="facbook-icon">
+                    </span>
+                    <span>
+                        <img src="./images/launch-countdown-timer/icon-pinterest.svg" alt="pinterest-icon">
+                    </span>
+                    <span>
+                        <img src="./images/launch-countdown-timer/icon-instagram.svg" alt="instagram-icon">
+                    </span>
+                </div>
+                <!-- <img src="./images/launch-countdown-timer/pattern-hills.svg" alt=""> -->
+            </div>
+        </section>
+    </main>
+<script src="./assets/js/launch-counter-timer.js"></script>
+</body>
+</html>
