@@ -5,18 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interactive pricing component</title>
     <!-- tailwind css -->
-    <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-      rel="preload"
-      as="style"
-      onload="this.rel = 'stylesheet'"
-    />
-    <noscript>
       <link
         href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
         rel="stylesheet"
       />
-    </noscript>
     <!--  -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -214,9 +206,10 @@
             </div>
             <!--  -->
             <div class="mb-6 md:mb-8 order-2 md:order-3 w-full">
-              <input
+              <label for="range">
+                <input
                 type="range"
-                name=""
+                name="range"
                 id="range"
                 min="2"
                 max="10"
@@ -224,6 +217,7 @@
                 value="6"
                 class="w-full range"
               />
+              </label>
             </div>
           </div>
           <div class="flex justify-center">
